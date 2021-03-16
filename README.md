@@ -68,4 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
 # firebase-auth-boilerplate
+I have created this repository to streamline the user login and signup process for my future projects. I have used this [https://github.com/WebDevSimplified/React-Firebase-Auth] repository as my guide. Watching this tutorial has enabled me to understand how to use Firebase with React, along with learning new concepts in React such as Hooks and Contexts.
