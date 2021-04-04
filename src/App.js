@@ -4,6 +4,7 @@ import Home from './components/Home'
 import SignUp from './components/Signup'
 import {AuthProvider} from './contexts/AuthContext'
 import UserProfile from './components/UserProfile'
+import UpdateProfile from './components/Profiles/UpdateProfileUser'
 import Login from './components/Login'
 import PrivateRoute from './components/PrivateRoute'
 
@@ -20,6 +21,7 @@ class App extends Component {
               <Route path = "/signup" component = {SignUp}/>
               <Route path = "/login" component = {Login}/>
               <PrivateRoute path = "/profile" component = {UserProfile}/>
+              <PrivateRoute path = "/profile-update" component = {UpdateProfile}/>
             </AuthProvider>
           </Switch>
         </Router>
